@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-wrapper {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-column {
+    width: 15%;
+    min-height: 100%;
+    background-color: #202123;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right-column {
+    flex-grow: 1;
+    min-height: 100%;
+    background-color: #34353F;
+    position: relative;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.left-top-container {
+    width: 100%;
+    padding: 20px;
+}
+
+.new-chat-button {
+    background-color: transparent;
+    color: #BFC0C5;
+    width: 100%;
+    padding: 10px;
+    border: 3px solid #BFC0C5;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.left-bottom-container {
+    border-top: 1px solid #BFC0C5;
+    padding: 0 20px 20px 20px;
+}
+
+.left-bottom-parameter-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.left-bottom-parameter-img {
+    display: block;
+}
+
+.left-bottom-parameter-p {
+    color: #BFC0C5;
+    font-size: 17px;
+    margin-bottom: 0;
+}
+
+.right-column-center-block {
+    width: 70%;
+    height: 60%;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.center-block-h {
+    text-align: center;
+    color: #BFC0C5;
+    font-size: 50px;
+}
+
+.center-block-grid {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.center-block-grid-column {
+    width: 30%;
+}
+
+.center-block-grid-column-header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #BFC0C5;
+    font-size: 25px;
+}
+
+.center-block-grid-cell {
+    padding: 20px;
+    background-color: #3E3F49;
+    margin: 20px 0;
+    border-radius: 10px;
+    color: #BFC0C5;
+}
+
+.center-bottom-container {
+    width: 80%;
+}
+
+.center-bottom-input-container {
+    padding: 0 30px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.center-bottom-input {
+    background-color: #40414D;
+    flex-grow: 1;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    color: #BFC0C5;
+}
+
+.center-bottom-button {
+    min-height: 100%;
+    width: 50px;
+    border-radius: 0 5px 5px 0;
+    background-color: #40414D;
+    cursor: pointer;
+}
+
+.center-bottom-text {
+    color: #BFC0C5;
+    text-align: center;
+}
+
+body {
+    background-color: #BFC0C5;
+}
+
+#themeToggler {
+    cursor: pointer;
+    user-select: none;
+}

@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+<div class="main-wrapper">
+    <div class="left-column">
+        <div class="left-top-container">
+            <button class="new-chat-button" onclick="location.href = 'chat.html'">New Chat</button>
+        </div>
+        <div class="left-bottom-container">
+            <div class="left-bottom-parameter-container" id="themeToggler">
+                <img class="left-bottom-parameter-img">
+                <p class="left-bottom-parameter-p">Light Mode</p>
+            </div>
+            <div class="left-bottom-parameter-container">
+                <img class="left-bottom-parameter-img">
+                <p class="left-bottom-parameter-p">Update & FAQ</p>
+            </div>
+            <div class="left-bottom-parameter-container">
+                <img class="left-bottom-parameter-img">
+                <p class="left-bottom-parameter-p">Log Out</p>
+            </div>
+        </div>
+    </div>
+    <div class="right-column">
+        <div class="right-column-center-block">
+            <h1 class="center-block-h">ChatGPT</h1>
+            <div class="center-block-grid">
+                <div class="center-block-grid-column">
+                    <div class="center-block-grid-column-header">Examples</div>
+                    <div class="center-block-grid-cell">Explain quantum computing in simple terms</div>
+                    <div class="center-block-grid-cell">Got any creative ideas for a 10 year old's birthday?</div>
+                    <div class="center-block-grid-cell">How do i make an HTTP request in JavaScript</div>
+                </div>
+                <div class="center-block-grid-column">
+                    <div class="center-block-grid-column-header">Capabilities</div>
+                    <div class="center-block-grid-cell">Remembers what user said earlier in the conversation</div>
+                    <div class="center-block-grid-cell">Allows user to provide follow-up corrections</div>
+                    <div class="center-block-grid-cell">Trained to decline inappropriate requests</div>
+                </div>
+                <div class="center-block-grid-column">
+                    <div class="center-block-grid-column-header">Limitations</div>
+                    <div class="center-block-grid-cell">May occasionnaly generate incorrect information</div>
+                    <div class="center-block-grid-cell">May occasionally produce harmful instructions or biased content</div>
+                    <div class="center-block-grid-cell">Limited knowledge of world and events after 2021</div>
+                </div>
+            </div>
+        </div>
+        <div class="center-bottom-container">
+            <div class="center-bottom-input-container">
+                <input class="center-bottom-input">
+                <div class="center-bottom-button"></div>
+            </div>
+            <div class="center-bottom-text">
+                <p>Free Researh Preview. Our goal is to make AI systems more natural and safe to interact with.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="assets/scripts/changeTheme.js"></script>
+</body>
+</html>
